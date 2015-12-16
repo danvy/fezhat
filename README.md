@@ -1,61 +1,30 @@
 # fezhat
 GHI Electronis FEZ Hat demo
 
-Azure Portal
+[Azure Portal] (https://portal.azure.com)
 
-https://portal.azure.com
+[Azure IoT Suite product page] (https://www.azureiotsuite.com)
 
+[Azure IoT Suite details] (https://azure.microsoft.com/en-us/documentation/articles/iot-suite-what-are-preconfigured-solutions/)
 
-Azure IoT Suite product page
+[Azure IoT Hub client SDKs] (https://github.com/Azure/azure-iot-sdks)
 
-https://www.azureiotsuite.com
+[Azure IoT Suite Remote Monitoring] (https://github.com/Azure/azure-iot-remote-monitoring)
 
+[Azure IoT Suite Predictive Maintenance]  (https://github.com/Azure/azure-iot-predictive-maintenance)
 
-Azure IoT Suite details
+[Windows 10 IoT] (https://dev.windows.com/en-us/iot)
 
-https://azure.microsoft.com/en-us/documentation/articles/iot-suite-what-are-preconfigured-solutions/
+[GHI Electronics FEZ HAT product page] (https://www.ghielectronics.com/catalog/product/500)
 
+[GHI Electronics FEZ HAT developer guide] (https://www.ghielectronics.com/docs/329/fez-hat-developers-guide)
 
-Azure IoT Hub client SDKs
+Windows 10 IoT Core FAQ
 
-https://github.com/Azure/azure-iot-sdks
+Default setting
 
+suser/password = adminstrator/p@ssw0rd
 
-Azure IoT Suite Remote Monitoring 
+[Windows 10 IoT Core Hands on Lab] (https://github.com/Psychlist1972/connectthedots/tree/IoT-Field-Labs/Devices/DirectlyConnectedDevices) 
 
-https://github.com/Azure/azure-iot-remote-monitoring
-
-
-Azure IoT Suite Predictive Maintenance
-
-https://github.com/Azure/azure-iot-predictive-maintenance
-
-
-Windows 10 IoT
-
-https://dev.windows.com/en-us/iot
-
-
-GHI Electronics FEZ HAT product page
-
-https://www.ghielectronics.com/catalog/product/500
-
-
-GHI Electronics FEZ HAT developer guide
-
-https://www.ghielectronics.com/docs/329/fez-hat-developers-guide
-
-
-Windows 10 IoT Core
-
-Default user/password = adminstrator/p@ssw0rd
-
-
-Windows 10 IoT Core Hands on Lab
-
-https://github.com/Psychlist1972/connectthedots/tree/IoT-Field-Labs/Devices/DirectlyConnectedDevices 
-
-
-Azure Share Access Signature Token Generator
-
-http://danvy.tv/sas-token-generator.html
+[Azure Share Access Signature Token Generator] (http://danvy.tv/sas-token-generator.html)
