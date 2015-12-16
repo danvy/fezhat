@@ -30,3 +30,6 @@ https://www.ghielectronics.com/docs/329/fez-hat-developers-guide
 
 Windows 10 IoT Core
 Default user/password = adminstrator/p@ssw0rd
+
+Windows 10 IoT Core Hands on Lab
+https://github.com/Psychlist1972/connectthedots/tree/IoT-Field-Labs/Devices/DirectlyConnectedDevices 
