@@ -24,6 +24,9 @@ namespace FezHatIoTHub
         public string FirmwareVersion { get; set; }
         public string Platform { get; set; }
         public string Processor { get; set; }
+        public string AvailablePowerSources { get; set; }
+        public string PowerSourceVoltage { get; set; }
+        public string BatteryLevel { get; set; }
         public string InstalledRAM { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }

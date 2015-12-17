@@ -1,10 +1,13 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FezHatIoTHub
 {
-    public class DeviceCommandParameter
+    public class DeviceCommandParameter : DeviceCommandParameterDefinition
     {
-        public string Name { get; set;  }
-        public DeviceCommandParameterType Type { get; set; }
+        public string Value { get; set; }
     }
 }

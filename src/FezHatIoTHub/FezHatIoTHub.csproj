@@ -97,8 +97,10 @@
     </Compile>
     <Compile Include="BoolToIntConverter.cs" />
     <Compile Include="DeviceCommand.cs" />
-    <Compile Include="DeviceMetaData.cs" />
+    <Compile Include="DeviceCommandDefinition.cs" />
     <Compile Include="DeviceCommandParameter.cs" />
+    <Compile Include="DeviceMetaData.cs" />
+    <Compile Include="DeviceCommandParameterDefinition.cs" />
     <Compile Include="DeviceCommandParameterType.cs" />
     <Compile Include="DeviceProperties.cs" />
     <Compile Include="DeviceState.cs" />
@@ -134,6 +136,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="WindowsIoT, Version=10.0.10586.0">
+      <Name>Windows IoT Extensions for the UWP</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
