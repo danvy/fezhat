@@ -190,5 +190,30 @@ namespace MonitoringFezHat
                 _invalidateFezHat = true;
             }
         }
+
+        private void TemperatureSlider_ValueChanged(object sender, Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs e)
+        {
+
+        }
+
+        private void HumiditySlider_ValueChanged(object sender, Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs e)
+        {
+
+        }
+
+        private void SwitchLightButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

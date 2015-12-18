@@ -8,6 +8,25 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel>
+            <TextBlock Text="IoT Suite Remote Monitoring" Style="{ThemeResource TitleTextBlockStyle}" Margin="4"/>
+            <Slider x:Name="TemperatureSlider" ValueChanged="TemperatureSlider_ValueChanged" Header="Temperature °C" Margin="4"/>
+            <Slider x:Name="HumiditySlider" ValueChanged="HumiditySlider_ValueChanged" Header="Humidity" Margin="4"/>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Margin="4">
+                    <Ellipse x:Name="Light1" Height="50" Width="50" Stroke="Gray" StrokeThickness="3"/>
+                    <TextBlock Text="Light" />
+                </StackPanel>
+                <StackPanel Margin="4">
+                    <Ellipse x:Name="Light2" Height="50" Width="50" Stroke="Gray" StrokeThickness="3"/>
+                    <TextBlock Text="Status" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <Button x:Name="SwitchLightButton" Content="Switch" Click="SwitchLightButton_Click" Margin="4"/>
+                <Button x:Name="StartButton" Content="Start" Click="StartButton_Click" Margin="4"/>
+                <Button x:Name="StopButton" Content="Stop" Click="StopButton_Click" Margin="4"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>
