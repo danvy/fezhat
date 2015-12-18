@@ -2,12 +2,13 @@
 using System.Diagnostics;
 using System.Text;
 using GHIElectronics.UWP.Shields;
+using IoTSuiteLib;
 using Microsoft.Azure.Devices.Client;
 using Newtonsoft.Json;
 using Windows.Foundation.Metadata;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-namespace FezHatIoTHub
+namespace MonitoringFezHat
 {
     public sealed partial class MainPage : Page
     {
@@ -26,34 +27,6 @@ namespace FezHatIoTHub
         {
             this.InitializeComponent();
             Loaded += MainPage_Loaded;
-        }
-        public bool LightSwitch
-        {
-            get
-            {
-                return _lightSwitch;
-            }
-            set
-            {
-                if (value == _lightSwitch)
-                    return;
-                _lightSwitch = value;
-                _invalidateFezHat = true;
-            }
-        }
-        public FEZHAT.Color LightColor
-        {
-            get
-            {
-                return _lightColor;
-            }
-            set
-            {
-                if (value == _lightColor)
-                    return;
-                _lightColor = value;
-                _invalidateFezHat = true;
-            }
         }
         private async void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
@@ -120,7 +93,7 @@ namespace FezHatIoTHub
             //Send message
             if (_telemetry)
             {
-                var data = new TelemetryRemoteMonitorData();
+                var data = new DeviceMonitoringData();
                 data.DeviceId = _deviceId;
                 data.Humidity = 0;
                 data.Temperature = _hat == null ? 0 : _hat.GetTemperature();
@@ -187,6 +160,34 @@ namespace FezHatIoTHub
                         await _client.RejectAsync(message);
                     }
                 }
+            }
+        }
+        public bool LightSwitch
+        {
+            get
+            {
+                return _lightSwitch;
+            }
+            set
+            {
+                if (value == _lightSwitch)
+                    return;
+                _lightSwitch = value;
+                _invalidateFezHat = true;
+            }
+        }
+        public FEZHAT.Color LightColor
+        {
+            get
+            {
+                return _lightColor;
+            }
+            set
+            {
+                if (value == _lightColor)
+                    return;
+                _lightColor = value;
+                _invalidateFezHat = true;
             }
         }
     }

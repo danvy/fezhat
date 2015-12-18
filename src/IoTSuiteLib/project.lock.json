@@ -3,47 +3,6 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -242,7 +201,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -1587,47 +1546,6 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -1869,7 +1787,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -3261,47 +3179,6 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -3529,7 +3406,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -4907,47 +4784,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -5194,7 +5030,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -6586,47 +6422,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -6854,7 +6649,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -8232,47 +8027,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -8519,7 +8273,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -9911,47 +9665,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {},
-      "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll": {}
-        }
-      },
-      "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-        "dependencies": {
-          "GHIElectronics.UWP.LowLevelDrivers": "[0.0.8, )"
-        },
-        "compile": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        },
-        "runtime": {
-          "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
-        }
-      },
-      "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {},
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-        "compile": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
-        }
-      },
-      "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-        "dependencies": {
-          "Apache.QPID.Proton.AzureIot": "[0.9.0.1-preview-003, )",
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )",
-          "Microsoft.Azure.IoTHub.IoTHubClient": "[1.0.0-preview-009, )"
-        }
-      },
-      "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-        "dependencies": {
-          "Microsoft.Azure.C.SharedUtility": "[1.0.0-preview-003, )"
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -10179,7 +9892,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.1-beta3": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -11558,200 +11271,6 @@
     }
   },
   "libraries": {
-    "Apache.QPID.Proton.AzureIot/0.9.0.1-preview-003": {
-      "sha512": "nmBiMUmBRQX3u9ng0MmnVmfGAB/jSpbdc67OVWlXbc+2eSc6d/mExluBzN/gD11yErXmiUvbIc+qgdb45UHmkQ==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "Apache.QPID.Proton.AzureIot.nuspec",
-        "build/native/Apache.QPID.Proton.AzureIot.targets",
-        "build/native/include/proton/cid.h",
-        "build/native/include/proton/codec.h",
-        "build/native/include/proton/condition.h",
-        "build/native/include/proton/connection.h",
-        "build/native/include/proton/container.h",
-        "build/native/include/proton/delivery.h",
-        "build/native/include/proton/disposition.h",
-        "build/native/include/proton/engine.h",
-        "build/native/include/proton/error.h",
-        "build/native/include/proton/event.h",
-        "build/native/include/proton/handlers.h",
-        "build/native/include/proton/import_export.h",
-        "build/native/include/proton/io.h",
-        "build/native/include/proton/link.h",
-        "build/native/include/proton/log.h",
-        "build/native/include/proton/message.h",
-        "build/native/include/proton/messenger.h",
-        "build/native/include/proton/object.h",
-        "build/native/include/proton/parser.h",
-        "build/native/include/proton/reactor.h",
-        "build/native/include/proton/sasl.h",
-        "build/native/include/proton/scanner.h",
-        "build/native/include/proton/selectable.h",
-        "build/native/include/proton/selector.h",
-        "build/native/include/proton/session.h",
-        "build/native/include/proton/ssl.h",
-        "build/native/include/proton/terminus.h",
-        "build/native/include/proton/transport.h",
-        "build/native/include/proton/type_compat.h",
-        "build/native/include/proton/types.h",
-        "build/native/include/proton/url.h",
-        "build/native/Win32/Debug/qpid-protond.dll",
-        "build/native/Win32/Debug/qpid-protond.lib",
-        "build/native/Win32/Debug/qpid-protond.pdb",
-        "build/native/Win32/Release/qpid-proton.dll",
-        "build/native/Win32/Release/qpid-proton.lib",
-        "build/native/x64/Debug/qpid-protond.dll",
-        "build/native/x64/Debug/qpid-protond.lib",
-        "build/native/x64/Debug/qpid-protond.pdb",
-        "build/native/x64/Release/qpid-proton.dll",
-        "build/native/x64/Release/qpid-proton.lib",
-        "package/services/metadata/core-properties/d896fab79c5c482ab5b6c43cf8c24f0b.psmdcp",
-        "thirdpartynotice.txt"
-      ]
-    },
-    "GHIElectronics.UWP.LowLevelDrivers/0.0.8": {
-      "sha512": "FvVU154icITbJFcE9+4tWGOGy4yBxhoLpgrDsmaQYsm8nnjAVnJT3xVUBCiCJUfXFVKUsGT6XcbklCBNHnja6Q==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "content/Properties/GHIElectronics.UWP.LowLevelDrivers.rd.xml",
-        "GHIElectronics.UWP.LowLevelDrivers.nuspec",
-        "lib/.NETCore50/GHIElectronics.UWP.LowLevelDrivers.dll",
-        "package/services/metadata/core-properties/6fcc664515c2460295e4f881490d77d5.psmdcp"
-      ]
-    },
-    "GHIElectronics.UWP.Shields.FEZHAT/0.0.8": {
-      "sha512": "slzf4YHFp5gCgGhjLvyB/BLT/MBJKb1NqWz8mZCe5fYomAu5COJDQS4NO0wPSHcDFnfMAsmdSpnf1WlcaaMNig==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "content/Properties/GHIElectronics.UWP.Shields.FEZHAT.rd.xml",
-        "GHIElectronics.UWP.Shields.FEZHAT.nuspec",
-        "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll",
-        "package/services/metadata/core-properties/fa7aee89d7f14cde98e8d46308b50778.psmdcp"
-      ]
-    },
-    "Microsoft.Azure.C.SharedUtility/1.0.0-preview-003": {
-      "sha512": "OZvk4mPJCnyRNJxUhf6m8UqdHA/BgWS+n9WAzAT/Qj9idtnnFe4oYUPkiM0Zh0SyXE7xjYwvhlCGT/XyK/Lceg==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "build/native/include/agenttime.h",
-        "build/native/include/base64.h",
-        "build/native/include/buffer.c",
-        "build/native/include/buffer_.h",
-        "build/native/include/condition.h",
-        "build/native/include/crt_abstractions.c",
-        "build/native/include/crt_abstractions.h",
-        "build/native/include/doublylinkedlist.c",
-        "build/native/include/doublylinkedlist.h",
-        "build/native/include/gballoc.c",
-        "build/native/include/gballoc.h",
-        "build/native/include/hmac.h",
-        "build/native/include/hmacsha256.h",
-        "build/native/include/httpapi.h",
-        "build/native/include/httpapi_winhttp.c",
-        "build/native/include/httpapiex.h",
-        "build/native/include/httpapiexsas.h",
-        "build/native/include/httpheaders.h",
-        "build/native/include/iot_logging.h",
-        "build/native/include/list.h",
-        "build/native/include/lock.h",
-        "build/native/include/lock_c11.c",
-        "build/native/include/macro_utils.h",
-        "build/native/include/map.h",
-        "build/native/include/mqttapi.h",
-        "build/native/include/platform.h",
-        "build/native/include/sastoken.h",
-        "build/native/include/sha.h",
-        "build/native/include/sha-private.h",
-        "build/native/include/socketio.h",
-        "build/native/include/stdint_ce6.h",
-        "build/native/include/string_tokenizer.h",
-        "build/native/include/strings.c",
-        "build/native/include/strings.h",
-        "build/native/include/threadapi.h",
-        "build/native/include/tickcounter.h",
-        "build/native/include/tlsio.h",
-        "build/native/include/tlsio_openssl.h",
-        "build/native/include/tlsio_schannel.h",
-        "build/native/include/tlsio_wolfssl.h",
-        "build/native/include/urlencode.h",
-        "build/native/include/vector.c",
-        "build/native/include/vector.h",
-        "build/native/include/xio.h",
-        "build/native/include/xlogging.h",
-        "build/native/Microsoft.Azure.C.SharedUtility.targets",
-        "build/native/Win32/Debug/aziotsharedutil.lib",
-        "build/native/Win32/Debug/aziotsharedutil.pdb",
-        "build/native/Win32/Release/aziotsharedutil.lib",
-        "build/native/x64/Debug/aziotsharedutil.lib",
-        "build/native/x64/Debug/aziotsharedutil.pdb",
-        "build/native/x64/Release/aziotsharedutil.lib",
-        "Microsoft.Azure.C.SharedUtility.nuspec",
-        "package/services/metadata/core-properties/446aac6341f14a1f894bfd0a3b9bf0da.psmdcp",
-        "thirdpartynotice.txt"
-      ]
-    },
-    "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-      "sha512": "/XmSTnMBhAXO4KTiHbwhgeMwp5xHgDpXjls7ZQB/F0MbiGo7w9T6G5RdGSqiOcMvOk+XaT/ZVJ/MA/Gg4XLdVw==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "lib/net45/Microsoft.Azure.Devices.Client.dll",
-        "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd",
-        "Microsoft.Azure.Devices.Client.nuspec",
-        "package/services/metadata/core-properties/57e69f41c56045d693d1712e69df23a7.psmdcp",
-        "thirdpartynotice.txt"
-      ]
-    },
-    "Microsoft.Azure.IoTHub.AmqpTransport/1.0.0-preview-009": {
-      "sha512": "BOtrP/c3vCCfzqfRP3Xb+u4AVZYKanZfPVrXvBl3VyOcbJex6447pWz2h9+DORzosQ9mDH0bzEbcreFCOZ4WcA==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "build/native/include/iothubtransportamqp.h",
-        "build/native/Microsoft.Azure.IoTHub.AmqpTransport.targets",
-        "build/native/Win32/Debug/iothub_client_amqp_transport.lib",
-        "build/native/Win32/Debug/iothub_client_amqp_transport.pdb",
-        "build/native/Win32/Release/iothub_client_amqp_transport.lib",
-        "build/native/x64/Debug/iothub_client_amqp_transport.lib",
-        "build/native/x64/Debug/iothub_client_amqp_transport.pdb",
-        "build/native/x64/Release/iothub_client_amqp_transport.lib",
-        "Microsoft.Azure.IoTHub.AmqpTransport.nuspec",
-        "package/services/metadata/core-properties/e4499d261264419587b0b0d33795f6ed.psmdcp",
-        "thirdpartynotice.txt"
-      ]
-    },
-    "Microsoft.Azure.IoTHub.IoTHubClient/1.0.0-preview-009": {
-      "sha512": "xiHLqJ5e2QGRpMJHQXjN2pZNWLcH7yufr2k+q0I3/W5GPuvrH4xzM/i+hhxyd5R5xEvNZeEG8fp/lTnDvUvi7w==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "build/native/include/iothub_client.h",
-        "build/native/include/iothub_client_ll.h",
-        "build/native/include/iothub_client_private.h",
-        "build/native/include/iothub_message.h",
-        "build/native/include/version.h",
-        "build/native/Microsoft.Azure.IoTHub.IoTHubClient.targets",
-        "build/native/Win32/Debug/iothub_client.lib",
-        "build/native/Win32/Debug/iothub_client.pdb",
-        "build/native/Win32/Release/iothub_client.lib",
-        "build/native/x64/Debug/iothub_client.lib",
-        "build/native/x64/Debug/iothub_client.pdb",
-        "build/native/x64/Release/iothub_client.lib",
-        "Microsoft.Azure.IoTHub.IoTHubClient.nuspec",
-        "package/services/metadata/core-properties/43fd958abf7e46deb3b45923576a546a.psmdcp"
-      ]
-    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "Package",
@@ -12405,8 +11924,8 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "Newtonsoft.Json/7.0.1": {
-      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+    "Newtonsoft.Json/8.0.1-beta3": {
+      "sha512": "fTozGxIUbseQrW3qXJcM5mDj/uenSJYu3WfwTsgc0alG8FqXwG5TY9aQLag+9Gt2bFtt/Y2e0Yy8J4p1fGtc9Q==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12424,7 +11943,7 @@
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
         "Newtonsoft.Json.nuspec",
-        "package/services/metadata/core-properties/49e907fc018c4c7ab632e6d4ad4766f8.psmdcp",
+        "package/services/metadata/core-properties/0f33e9ae0a294415849bc6d6b22dcb34.psmdcp",
         "tools/install.ps1"
       ]
     },
@@ -15126,11 +14645,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "GHIElectronics.UWP.Shields.FEZHAT >= 0.0.8",
-      "Microsoft.Azure.Devices.Client >= 1.0.0-preview-007",
-      "Microsoft.Azure.IoTHub.AmqpTransport >= 1.0.0-preview-009",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "Newtonsoft.Json >= 7.0.1"
+      "Newtonsoft.Json >= 8.0.1-beta3"
     ],
     "UAP,Version=v10.0": []
   }

@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace FezHatIoTHub
+namespace MonitoringFezHat
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -43,7 +43,7 @@ namespace FezHatIoTHub
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                this.DebugSettings.EnableFrameRateCounter = false;
             }
 #endif
 

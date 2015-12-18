@@ -8,14 +8,14 @@
 
   <Identity
     Name="946f921a-0583-44e7-a5b4-1aee2069fb65"
-    Publisher="CN=Alex"
+    Publisher="CN=Alex Danvy"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="946f921a-0583-44e7-a5b4-1aee2069fb65" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>FezHatIoTHub</DisplayName>
-    <PublisherDisplayName>Alex</PublisherDisplayName>
+    <DisplayName>IoT Suite Remote Monitoring FezHat</DisplayName>
+    <PublisherDisplayName>Alex Danvy</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="FezHatIoTHub.App">
+      EntryPoint="MonitoringFezHat.App">
       <uap:VisualElements
-        DisplayName="FezHatIoTHub"
+        DisplayName="MonitoringFezHat"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="FezHatIoTHub"
+        Description="MonitoringFezHat"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

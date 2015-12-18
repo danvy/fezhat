@@ -5,9 +5,9 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FezHatIoTHub
+namespace IoTSuiteLib
 {
-    public class TelemetryRemoteMonitorData
+    public class DeviceMonitoringData
     {
         public string DeviceId { get; set; }
         public double Temperature { get; set; }

@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace FezHatIoTHub
+namespace IoTSuiteLib
 {
     public class DeviceCommandParameterDefinition
     {

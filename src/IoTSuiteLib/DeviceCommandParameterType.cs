@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace FezHatIoTHub
+namespace IoTSuiteLib
 {
     public enum DeviceCommandParameterType
     {

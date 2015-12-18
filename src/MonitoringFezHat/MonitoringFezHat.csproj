@@ -7,8 +7,8 @@
     <ProjectGuid>{B12BC832-6549-4487-95D2-B2ECE8F12C51}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FezHatIoTHub</RootNamespace>
-    <AssemblyName>FezHatIoTHub</AssemblyName>
+    <RootNamespace>MonitoringFezHat</RootNamespace>
+    <AssemblyName>MonitoringFezHat</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
@@ -16,7 +16,7 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>FezHatIoTHub_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>MonitoringFezHat_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -95,27 +95,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BoolToIntConverter.cs" />
-    <Compile Include="DeviceCommand.cs" />
-    <Compile Include="DeviceCommandDefinition.cs" />
-    <Compile Include="DeviceCommandParameter.cs" />
-    <Compile Include="DeviceMetaData.cs" />
-    <Compile Include="DeviceCommandParameterDefinition.cs" />
-    <Compile Include="DeviceCommandParameterType.cs" />
-    <Compile Include="DeviceProperties.cs" />
-    <Compile Include="DeviceState.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ObjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TelemetryRemoteMonitorData.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="FezHatIoTHub_TemporaryKey.pfx" />
+    <None Include="MonitoringFezHat_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -141,6 +130,12 @@
     <SDKReference Include="WindowsIoT, Version=10.0.10586.0">
       <Name>Windows IoT Extensions for the UWP</Name>
     </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IoTSuiteLib\IoTSuiteLib.csproj">
+      <Project>{7fbbb2b1-7201-49b6-b23b-3725a737d65f}</Project>
+      <Name>IoTSuiteLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

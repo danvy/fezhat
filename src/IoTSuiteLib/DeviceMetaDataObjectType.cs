@@ -1,8 +1,8 @@
 ﻿using System.Runtime.Serialization;
 
-namespace FezHatIoTHub
+namespace IoTSuiteLib
 {
-    public enum ObjectType
+    public enum DeviceMetaDataObjectType
     {
         DeviceInfo
     }

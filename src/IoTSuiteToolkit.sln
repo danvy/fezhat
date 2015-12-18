@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FezHatBlink", "FezHatBlink\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FezHatCloud", "FezHatCloud\FezHatCloud.csproj", "{E3DD4E2D-2108-457F-8118-E20E7CB9F202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FezHatIoTHub", "FezHatIoTHub\FezHatIoTHub.csproj", "{B12BC832-6549-4487-95D2-B2ECE8F12C51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringFezHat", "MonitoringFezHat\MonitoringFezHat.csproj", "{B12BC832-6549-4487-95D2-B2ECE8F12C51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FezHatBlinkHeadless", "FezHatBlinkHeadless\FezHatBlinkHeadless.csproj", "{FE6D37D2-D3F5-4271-9813-7BB856980955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTSuiteLib", "IoTSuiteLib\IoTSuiteLib.csproj", "{7FBBB2B1-7201-49B6-B23B-3725A737D65F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,22 @@ Global
 		{FE6D37D2-D3F5-4271-9813-7BB856980955}.Release|x86.ActiveCfg = Release|x86
 		{FE6D37D2-D3F5-4271-9813-7BB856980955}.Release|x86.Build.0 = Release|x86
 		{FE6D37D2-D3F5-4271-9813-7BB856980955}.Release|x86.Deploy.0 = Release|x86
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|ARM.Build.0 = Debug|ARM
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|x64.ActiveCfg = Debug|x64
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|x64.Build.0 = Debug|x64
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|x86.ActiveCfg = Debug|x86
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Debug|x86.Build.0 = Debug|x86
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|ARM.ActiveCfg = Release|ARM
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|ARM.Build.0 = Release|ARM
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|x64.ActiveCfg = Release|x64
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|x64.Build.0 = Release|x64
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|x86.ActiveCfg = Release|x86
+		{7FBBB2B1-7201-49B6-B23B-3725A737D65F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
