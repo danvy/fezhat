@@ -133,10 +133,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IoTSuiteLib\IoTSuiteLib.csproj">
-      <Project>{7fbbb2b1-7201-49b6-b23b-3725a737d65f}</Project>
+      <Project>{3e44a9e4-ed33-406c-9bb8-b0da1c75fbe4}</Project>
       <Name>IoTSuiteLib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <Import Project="..\MonitoringShared\MonitoringShared.projitems" Label="Shared" />
+  <Import Project="..\MonitoringFezHatShared\MonitoringFezHatShared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

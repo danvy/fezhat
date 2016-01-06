@@ -5,16 +5,18 @@
     xmlns:local="using:MonitoringFezHat"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    DataContext="{Binding ViewModel, RelativeSource={RelativeSource Self}}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
             <TextBlock Text="IoT Suite Remote Monitoring" Style="{ThemeResource TitleTextBlockStyle}" Margin="4"/>
-            <Slider x:Name="TemperatureSlider" ValueChanged="TemperatureSlider_ValueChanged" Header="Temperature °C" Margin="4"/>
-            <Slider x:Name="HumiditySlider" ValueChanged="HumiditySlider_ValueChanged" Header="Humidity" Margin="4"/>
+            <Slider x:Name="TemperatureSlider" Value="{Binding Temperature}" Minimum="-100" Maximum="100" Header="Temperature °C" Margin="4"/>
+            <Slider x:Name="ExternalTemperatureSlider" Value="{Binding ExternalTemperature}" Minimum="-100" Maximum="100" Header="External Temperature °C" Margin="4"/>
+            <Slider x:Name="HumiditySlider" Value="{Binding Humidity}" Minimum="-100" Maximum="100" Header="Humidity" Margin="4"/>
             <StackPanel Orientation="Horizontal">
                 <StackPanel Margin="4">
-                    <Ellipse x:Name="Light1" Height="50" Width="50" Stroke="Gray" StrokeThickness="3"/>
+                    <Ellipse x:Name="Light1" Fill="{Binding LightColorBrush, Mode=OneWay}" Height="50" Width="50" Stroke="Gray" StrokeThickness="3"/>
                     <TextBlock Text="Light" />
                 </StackPanel>
                 <StackPanel Margin="4">
@@ -23,9 +25,8 @@
                 </StackPanel>
             </StackPanel>
             <StackPanel Orientation="Horizontal" >
-                <Button x:Name="SwitchLightButton" Content="Switch" Click="SwitchLightButton_Click" Margin="4"/>
-                <Button x:Name="StartButton" Content="Start" Click="StartButton_Click" Margin="4"/>
-                <Button x:Name="StopButton" Content="Stop" Click="StopButton_Click" Margin="4"/>
+                <Button x:Name="SwitchLightButton" Content="Switch" Command="{Binding SwitchLightCommand}" Margin="4"/>
+                <Button x:Name="SettingsButton" Content="Settings" Command="{Binding SettingsCommand}" Margin="4"/>
             </StackPanel>
         </StackPanel>
     </Grid>

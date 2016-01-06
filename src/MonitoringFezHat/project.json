@@ -1,9 +1,9 @@
 ﻿{
   "dependencies": {
     "GHIElectronics.UWP.Shields.FEZHAT": "0.0.8",
-    "Microsoft.Azure.Devices.Client": "1.0.0-preview-007",
+    "Microsoft.Azure.Devices.Client": "1.0.0-preview-009",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
-    "Newtonsoft.Json": "8.0.1-beta3"
+    "Newtonsoft.Json": "8.0.1"
   },
   "frameworks": {
     "uap10.0": {}

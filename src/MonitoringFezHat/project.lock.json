@@ -22,7 +22,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -228,7 +228,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -1592,7 +1592,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -1841,7 +1841,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -3252,7 +3252,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -3487,7 +3487,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -4884,7 +4884,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -5138,7 +5138,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -6549,7 +6549,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -6784,7 +6784,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -8181,7 +8181,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -8435,7 +8435,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -9846,7 +9846,7 @@
           "lib/.NETCore50/GHIElectronics.UWP.Shields.FEZHAT.dll": {}
         }
       },
-      "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
+      "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
         "compile": {
           "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd": {}
         },
@@ -10081,7 +10081,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.1-beta3": {
+      "Newtonsoft.Json/8.0.1": {
         "compile": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         },
@@ -11484,8 +11484,8 @@
         "package/services/metadata/core-properties/fa7aee89d7f14cde98e8d46308b50778.psmdcp"
       ]
     },
-    "Microsoft.Azure.Devices.Client/1.0.0-preview-007": {
-      "sha512": "/XmSTnMBhAXO4KTiHbwhgeMwp5xHgDpXjls7ZQB/F0MbiGo7w9T6G5RdGSqiOcMvOk+XaT/ZVJ/MA/Gg4XLdVw==",
+    "Microsoft.Azure.Devices.Client/1.0.0-preview-009": {
+      "sha512": "f9oMS8AZA3GUI6BZHhFuHBJ/ppD/fHUdhOV25cXjfNCJXtABM2J9SFjUL6kG2hbSLPtFbiDSpGNSSMUg+HRJVA==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -11493,7 +11493,7 @@
         "lib/net45/Microsoft.Azure.Devices.Client.dll",
         "lib/uap10.0/Microsoft.Azure.Devices.Client.winmd",
         "Microsoft.Azure.Devices.Client.nuspec",
-        "package/services/metadata/core-properties/57e69f41c56045d693d1712e69df23a7.psmdcp",
+        "package/services/metadata/core-properties/723e2c71e3a3454ca929c44a457f4aca.psmdcp",
         "thirdpartynotice.txt"
       ]
     },
@@ -12150,8 +12150,8 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "Newtonsoft.Json/8.0.1-beta3": {
-      "sha512": "fTozGxIUbseQrW3qXJcM5mDj/uenSJYu3WfwTsgc0alG8FqXwG5TY9aQLag+9Gt2bFtt/Y2e0Yy8J4p1fGtc9Q==",
+    "Newtonsoft.Json/8.0.1": {
+      "sha512": "qFzqzune1D7hDz8kNavFwrJ0fv8qkwANGyUOPjP0I67DmNH04nmSCRB0g0LCIqogMKrBXjsiP43Z0E1huBvxOg==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12169,7 +12169,7 @@
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
         "Newtonsoft.Json.nuspec",
-        "package/services/metadata/core-properties/0f33e9ae0a294415849bc6d6b22dcb34.psmdcp",
+        "package/services/metadata/core-properties/ec951ab7a85848cfa5a19094817892b5.psmdcp",
         "tools/install.ps1"
       ]
     },
@@ -14872,9 +14872,9 @@
   "projectFileDependencyGroups": {
     "": [
       "GHIElectronics.UWP.Shields.FEZHAT >= 0.0.8",
-      "Microsoft.Azure.Devices.Client >= 1.0.0-preview-007",
+      "Microsoft.Azure.Devices.Client >= 1.0.0-preview-009",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "Newtonsoft.Json >= 8.0.1-beta3"
+      "Newtonsoft.Json >= 8.0.1"
     ],
     "UAP,Version=v10.0": []
   }
