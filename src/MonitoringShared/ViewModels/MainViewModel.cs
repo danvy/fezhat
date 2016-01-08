@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Danvy.Services;
 using Danvy.Tools;
 using Danvy.ViewModels;
 using IoTSuiteLib;
@@ -196,7 +197,7 @@ namespace MonitoringShared.ViewModels
             Started = true;
             StartStopCaption = "Stop";
         }
-        private void Stop()
+        public void Stop()
         {
             if (_timer != null)
             {
@@ -212,9 +213,12 @@ namespace MonitoringShared.ViewModels
             {
                 if (_board.ButtonPressed)
                     SwitchLight();
-                Humidity = _board.Humidity;
-                Temperature = _board.Temperature;
-                ExternalTemperature = _board.ExternalTemperature;
+                await IoC.Instance.Resolve<IDispatcherService>().RunAsync(() =>
+                {
+                    Humidity = _board.Humidity;
+                    Temperature = _board.Temperature;
+                    ExternalTemperature = _board.ExternalTemperature;
+                });
             }
             //Every 5 seconds
             if (DateTime.Now.Second % 5 != 0)
@@ -243,7 +247,7 @@ namespace MonitoringShared.ViewModels
                 {
                     if (command.Name == "SwitchLight")
                     {
-                        SwitchLight();
+                        await IoC.Instance.Resolve<IDispatcherService>().RunAsync(() => SwitchLight());
                         await _client.CompleteAsync(message);
                     }
                     else if (command.Name == "LightColor")
@@ -253,7 +257,7 @@ namespace MonitoringShared.ViewModels
                             var color = LEDColor.Black;
                             if (Enum.TryParse<LEDColor>(command.Parameters[0].Value, out color))
                             {
-                                LightColor = color;
+                                await IoC.Instance.Resolve<IDispatcherService>().RunAsync(() => LightColor = color);
                                 await _client.CompleteAsync(message);
                             }
                             else

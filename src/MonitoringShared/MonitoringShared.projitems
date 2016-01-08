@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Services\DebugLogService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IBoardService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IDispatcherService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\ILogService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\IoC.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\LEDColor.cs" />

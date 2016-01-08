@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Windows.Foundation;
 
 namespace Danvy.Services
 {
-    public interface ILogService
+    public interface IDispatcherService
     {
-        void WriteLine(string value);
+        IAsyncAction RunAsync(Action action);
     }
 }

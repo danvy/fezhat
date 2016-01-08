@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Danvy.Tools;
 using IoTSuiteLib;
 using Microsoft.Azure.Devices.Client;
 using Newtonsoft.Json;
@@ -17,9 +18,9 @@ namespace MonitoringFezHatConsole
         private static DeviceClient _client;
         private static string _deviceId;
         private static bool _telemetry = true;
-        private static double _humidity = 0;
-        private static double _temperature = 0;
-        private static double? _externalTemperature = 0;
+        private static double _humidity = 50;
+        private static double _temperature = 20;
+        private static double? _externalTemperature = null;
         private static Timer _timer;
         private static string _lightColor;
 
@@ -28,10 +29,47 @@ namespace MonitoringFezHatConsole
             Console.CancelKeyPress += Console_CancelKeyPress;
             Init();
             _timer = new Timer(Callback, null, TimeSpan.FromMilliseconds(0), TimeSpan.FromMilliseconds(250));
+            while (!_cancel)
+            {
+                Thread.Sleep(100);
+            }
         }
 
         private static async void Callback(object state)
         {
+            var keyDown = false;
+            if (Keyboard.IsKeyDown(VirtualKey.Numpad4) || Keyboard.IsKeyDown(VirtualKey.Down) || Keyboard.IsKeyDown(VirtualKey.Add))
+            {
+                _temperature--;
+                keyDown = true;
+            }
+            if (Keyboard.IsKeyDown(VirtualKey.Numpad7) || Keyboard.IsKeyDown(VirtualKey.Up) || Keyboard.IsKeyDown(VirtualKey.Subtract))
+            {
+                _temperature++;
+                keyDown = true;
+            }
+            else if (Keyboard.IsKeyDown(VirtualKey.Numpad5))
+            {
+                _humidity--;
+                keyDown = true;
+            }
+            else if (Keyboard.IsKeyDown(VirtualKey.Numpad8))
+            {
+                _humidity++;
+                keyDown = true;
+            }
+            else if (Keyboard.IsKeyDown(VirtualKey.Numpad6))
+            {
+                _externalTemperature--;
+                keyDown = true;
+            }
+            else if (Keyboard.IsKeyDown(VirtualKey.Numpad9))
+            {
+                _externalTemperature++;
+                keyDown = true;
+            }
+            if (keyDown)
+                Console.WriteLine("Temperature={0}, Humidity={1}, External temperature={2}", _temperature, _humidity, _externalTemperature);
             if (DateTime.Now.Second % 5 != 0)
                 return;
             if (_client == null)
@@ -45,7 +83,9 @@ namespace MonitoringFezHatConsole
                 data.Temperature = _temperature;
                 data.ExternalTemperature = _externalTemperature;
                 var content = JsonConvert.SerializeObject(data);
-                await _client.SendEventAsync(new Message(Encoding.UTF8.GetBytes(content)));
+                var msg = new Message(Encoding.UTF8.GetBytes(content));
+                //await _client.SendEventAsync(message);
+                await _client.SendEventAsync(msg);
             }
             //receive messages
             Message message;

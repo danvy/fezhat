@@ -1,4 +1,4 @@
-{
+﻿{
   "supports": {},
   "dependencies": {
     "Newtonsoft.Json": "8.0.1"

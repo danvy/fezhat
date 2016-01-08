@@ -11,9 +11,12 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
             <TextBlock Text="IoT Suite Remote Monitoring" Style="{ThemeResource TitleTextBlockStyle}" Margin="4"/>
-            <Slider x:Name="TemperatureSlider" Value="{Binding Temperature}" Minimum="-100" Maximum="100" Header="Temperature °C" Margin="4"/>
-            <Slider x:Name="ExternalTemperatureSlider" Value="{Binding ExternalTemperature}" Minimum="-100" Maximum="100" Header="External Temperature °C" Margin="4"/>
-            <Slider x:Name="HumiditySlider" Value="{Binding Humidity}" Minimum="-100" Maximum="100" Header="Humidity" Margin="4"/>
+            <TextBlock Text="{Binding Temperature}" Style="{ThemeResource HeaderTextBlockStyle}" />
+            <Slider x:Name="TemperatureSlider" Value="{Binding Temperature, Mode=TwoWay}" Minimum="-100" Maximum="100" Header="Temperature °C" Margin="4" />
+            <TextBlock Text="{Binding ExternalTemperature}" Style="{ThemeResource HeaderTextBlockStyle}" />
+            <Slider x:Name="ExternalTemperatureSlider" Value="{Binding ExternalTemperature, Mode=TwoWay}" Minimum="-100" Maximum="100" Header="External Temperature °C" Margin="4"/>
+            <TextBlock Text="{Binding Humidity}" Style="{ThemeResource HeaderTextBlockStyle}" />
+            <Slider x:Name="HumiditySlider" Value="{Binding Humidity, Mode=TwoWay}" Minimum="-100" Maximum="100" Header="Humidity" Margin="4"/>
             <StackPanel Orientation="Horizontal">
                 <StackPanel Margin="4">
                     <Ellipse x:Name="Light1" Fill="{Binding LightColorBrush, Mode=OneWay}" Height="50" Width="50" Stroke="Gray" StrokeThickness="3"/>
